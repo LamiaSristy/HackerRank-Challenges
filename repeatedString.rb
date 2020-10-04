@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/repeated-string/problem
+
 def repeatedString(s, n)
     count_a = s.count('a')
     num = n / s.size

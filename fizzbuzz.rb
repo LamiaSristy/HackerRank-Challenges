@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/fizzbuzz/problem
+
 100.times do |i|
     i+=1
     if i%15==0

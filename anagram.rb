@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/anagram/problem
+
 def anagram(s)
     if s.length.odd?
       return -1
