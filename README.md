@@ -1,6 +1,11 @@
 ## HackerRank-Challenges-Solutions
 This repository contains the solutions for the problems I have solved from HackerRank.
 
+## Built With
+
+- Ruby
+- VS Code
+
 ## Author Details::
 
 👤 **Lamia Sristy**
