@@ -18,9 +18,9 @@ def anagram(s)
     end
 end
 
-anagram('aaabbb')
-anagram('ab')
-anagram('abc')
-anagram('mnop')
-anagram('xyyx')
-anagram('xaxbbbxx')
+puts anagram('aaabbb')
+puts anagram('ab')
+puts anagram('abc')
+puts anagram('mnop')
+puts anagram('xyyx')
+puts anagram('xaxbbbxx')
