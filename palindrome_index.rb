@@ -7,8 +7,11 @@ def palindromeIndex(s)
         i+=1
         j-=1
     end
-    s1 = s[0...i]+s[i+1...s.size]
-    s2 = s[0...j]+s[j+1...s.size]
+
+    # s1 = s[0...i] + s[i+1...s.size]
+    # s2 = s[0...j] + s[j+1...s.size]
+    s1 = s[0...i] << s[i+1...s.size]
+    s2 = s[0...j] << s[j+1...s.size]
  
     return i if s1 == s1.reverse
     return j if s2 == s2.reverse
